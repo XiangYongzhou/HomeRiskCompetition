@@ -51,3 +51,5 @@ print(missing_values)
 # preprocess of data is super important in machine learning. Garbage in garbage out.
 # Task 1 prepocessing missing value
 
+app_train.select_dtypes('object').apply(pd.Series.nunique, axis = 0)
+#digitize the type
