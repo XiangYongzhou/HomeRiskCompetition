@@ -30,9 +30,9 @@ def missing_values_table(df):
     # Return the dataframe with missing information
     return mis_val_table_ren_columns
 
-print(os.listdir("data/"))
+print(os.listdir("input/"))
 
-app_train = pd.read_csv('data/application_train.csv')
+app_train = pd.read_csv('input/application_train.csv')
 print('Training data shape: ', app_train.shape)
 app_train.head()
 

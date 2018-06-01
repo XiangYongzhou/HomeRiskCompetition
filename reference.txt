@@ -19,6 +19,7 @@ Age和Exterior source和是否违约有相关性
 
 http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/  GB model
 
-Choose right model + optimal Settings + feature engineering (add new feature or dimensionality reduction) + good data
+Choose right model + optimal Settings + feature engineering (add new feature or dimensionality reduction)
++ Tricks (ensembling+blending), super important + good data
 
 Model:
