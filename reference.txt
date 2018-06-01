@@ -1,6 +1,24 @@
+EDA:
 https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
 https://www.kaggle.com/codename007/home-credit-complete-eda-feature-importance
-https://www.kaggle.com/shivamb/homecreditrisk-extensive-eda-baseline-model
-https://www.kaggle.com/gpreda/home-credit-default-risk-extensive-eda --> get started of this project
+https://www.kaggle.com/shivamb/homecreditrisk-extensive-eda-baseline-model lgb baseline model used, 0.77
+https://www.kaggle.com/gpreda/home-credit-default-risk-extensive-eda auther is a competition expert
+
+Models Discussion:
+https://www.kaggle.com/ogrellier/good-fun-with-ligthgbm LGB
+
+
+Feature Discussion:
+https://www.kaggle.com/pavanraj159/loan-repayers-v-s-loan-defaulters-home-credit
+
+
 https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/discussion/56475#326680 --> very relevant topic as the dataset has similar facts
 such as negative and positive entries are not balanced, Tree model looks promising etc.
+
+Age和Exterior source和是否违约有相关性
+
+http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/  GB model
+
+Choose right model + optimal Settings + feature engineering (add new feature or dimensionality reduction) + good data
+
+Model:
