@@ -2,3 +2,5 @@ data/
 input/
 source_data/
 .idea/
+R_script/.Rhistory
+*.csv
