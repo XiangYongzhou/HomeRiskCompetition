@@ -23,3 +23,8 @@ Choose right model + optimal Settings + feature engineering (add new feature or 
 + Tricks (ensembling+blending), super important + good data
 
 Model:
+
+https://www.kaggle.com/scirpus/hybrid-jeepy-and-lgb genetic programming...
+Genetic programming Complex adaptive systems - Koza J.R.
+
+GBDT VS LGB

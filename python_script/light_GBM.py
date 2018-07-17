@@ -24,9 +24,11 @@ buro_bal = pd.concat([buro_bal, pd.get_dummies(buro_bal.STATUS, prefix='buro_bal
 print('Counting buros')
 buro_counts = buro_bal[['SK_ID_BUREAU', 'MONTHS_BALANCE']].groupby('SK_ID_BUREAU').count()
 buro_bal['buro_count'] = buro_bal['SK_ID_BUREAU'].map(buro_counts['MONTHS_BALANCE'])
-
+print(buro_bal.describe())
 print('averaging buro bal')
 avg_buro_bal = buro_bal.groupby('SK_ID_BUREAU').mean()
+
+print(avg_buro_bal.describe())
 
 avg_buro_bal.columns = ['avg_buro_' + f_ for f_ in avg_buro_bal.columns]
 del buro_bal
